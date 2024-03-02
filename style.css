@@ -166,6 +166,9 @@ body {
 
 .about .row .about-img img {
   width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* About Content */
@@ -193,7 +196,7 @@ body {
 .menu h2 {
   font-size: 40px;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 .menu p {
@@ -215,12 +218,13 @@ body {
 
 .menu .row .menu-card {
   text-align: center;
-  border: 1px solid white;
 }
 
 .menu .row .menu-card .menu-card-img {
   width: 150px;
   height: 150px;
+  object-fit: cover;
+  object-position: center;
   border-radius: 50%;
 }
 
@@ -284,6 +288,11 @@ body {
     flex-wrap: wrap;
   }
 
+  .menu h2 {
+    font-size: 32x;
+    margin-bottom: 24px;
+  }
+
   /* About Image */
   .about .row .about-img img {
     aspect-ratio: 4/3;
@@ -299,10 +308,18 @@ body {
     margin-top: 24px;
   }
 
-  /* ---------- Menu ---------- */
+  /* ---------- Menu Section ---------- */
 
   /* Menu Card */
   .menu .row {
     gap: 32px;
+  }
+
+  .menu-card .menu-card-title {
+    font-size: 13px;
+  }
+
+  .menu-card .menu-card-price {
+    font-size: 12px;
   }
 }
