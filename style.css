@@ -78,12 +78,13 @@ body {
 }
 
 /* Navbar - Button */
-.navbar .navbar-button a {
+.navbar .navbar-button button {
   color: var(--light);
+  background: none;
   margin: 0 8px;
 }
 
-.navbar .navbar-button a:hover {
+.navbar .navbar-button button:hover {
   color: var(--primary);
 }
 
