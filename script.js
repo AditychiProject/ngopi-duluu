@@ -1,6 +1,3 @@
-// Feather Icons
-feather.replace();
-
 // Menu Active
 const navbarNav = document.querySelector(".navbar-nav");
 document.querySelector("#hamburger-menu").onclick = () => {
