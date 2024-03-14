@@ -216,7 +216,6 @@ body {
 
 /* About - Image */
 .about .row .about-img {
-  border: 1px solid white;
   flex: 1 1 720px;
 }
 
