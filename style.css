@@ -265,7 +265,7 @@ body {
   margin: auto;
 }
 
-/* Menu - Cards */
+/* Menu - Product */
 .menu .row {
   display: flex;
   flex-wrap: wrap;
@@ -412,7 +412,7 @@ body {
   padding: 16px 0;
 }
 
-/* Footer - Socials */
+/* Footer - Social */
 .footer .socials {
   padding: 16px;
 }
@@ -421,7 +421,7 @@ body {
   margin: 16px;
 }
 
-/* Footer - Links */
+/* Footer - Link */
 .footer .links {
   margin-bottom: 16px;
 }
@@ -541,7 +541,7 @@ body {
     margin-bottom: 24px;
   }
 
-  /* Menu - Cards */
+  /* Menu - Product */
   .menu .row {
     gap: 32px;
   }

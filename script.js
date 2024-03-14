@@ -4,7 +4,15 @@ document.querySelector("#hamburger-menu").onclick = () => {
   navbarNav.classList.toggle("active");
 };
 
-// Close Outside of Element
+// Search Bar
+const searchBar = document.querySelector(".search-bar");
+const searchBox = document.querySelector("#search-box");
+document.querySelector("#search-button").onclick = () => {
+  searchBar.classList.toggle("active");
+  searchBox.focus();
+};
+
+// Click Outside the Element
 const hamburger = document.querySelector("#hamburger-menu");
 const searchButton = document.querySelector("#search-button");
 document.addEventListener("click", function (e) {
@@ -18,11 +26,3 @@ document.addEventListener("click", function (e) {
     searchBar.classList.remove("active");
   }
 });
-
-// Search Bar
-const searchBar = document.querySelector(".search-bar");
-const searchBox = document.querySelector("#search-box");
-document.querySelector("#search-button").onclick = () => {
-  searchBar.classList.toggle("active");
-  searchBox.focus();
-};
