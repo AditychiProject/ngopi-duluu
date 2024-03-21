@@ -647,6 +647,10 @@ body {
     gap: 32px;
   }
 
+  .product .product-card {
+    margin: auto;
+  }
+
   .product .product-content h3 {
     font-size: 13px;
   }
